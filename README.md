@@ -1,4 +1,5 @@
 ////////////////////////////////main///////////////////////
+
 using namespace std;
 Relogio* Relogio::instancia = 0;
 /*
@@ -23,6 +24,7 @@ int main(int argc, char** argv) {
 }
 
 ///////////////////Relogio.h//////////////////////////////
+
 class Relogio {
    
   private:  
@@ -51,7 +53,9 @@ class Relogio {
 private:
 
 };
+
 //////////////Relogio.cpp////////////////////////////
+
 Relogio::Relogio(){
     this->intervalo = 0;
     this->tempo = 0;
@@ -114,7 +118,9 @@ void Evento::setDesvio(int desvio) {
 void Evento::executa(){
     
 }
+
 //////////////////////Evento.h////////////////////////
+
 class Evento {
 public:
     int data;
