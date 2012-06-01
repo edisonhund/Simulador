@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     while(!eventos.empty())
     {
   e = &eventos.front();
-    	e->executa();
+      e->executa();
         Relogio::getInstancia()->setValor(e->duracao);
     }
     estatistica.show();
@@ -49,8 +49,6 @@ class Relogio {
     Relogio();
    
     void contaTempo(int);
-    
-private:
 
 };
 
